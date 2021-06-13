@@ -4,14 +4,20 @@
     <option name="EDITOR_FONT_NAME" value="JetBrains Mono"/>
     <option name="EDITOR_LIGATURES" value="true"/>
     <colors>
+        <option name="ADDED_LINES_COLOR" value="b5bd68"/>
+        <option name="ANNOTATIONS_COLOR" value="1d1f21"/>
         <option name="CARET_COLOR" value="c5c8c6"/>
         <option name="CARET_ROW_COLOR" value="282a2e"/>
+        <option name="DELETED_LINES_COLOR" value="cc6666"/>
         <option name="DOCUMENTATION_COLOR" value="373b41"/>
         <option name="DOC_COMMENT_GUIDE" value="969896"/>
         <option name="DOC_COMMENT_LINK" value="81a2be"/>
         <option name="ERROR_HINT" value="cc6666"/>
         <option name="FOLDED_TEXT_BORDER_COLOR" value=""/>
         <option name="GUTTER_BACKGROUND" value="1d1f21"/>
+        <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="b5bd68"/>
+        <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="cc6666"/>
+        <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="de935f"/>
         <option name="INDENT_GUIDE" value="282a2e"/>
         <option name="INFORMATION_HINT" value="373b41"/>
         <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="373b41"/>
@@ -19,6 +25,7 @@
         <option name="INLINE_REFACTORING_SETTINGS_HOVERED" value="969896"/>
         <option name="LINE_NUMBERS_COLOR" value="969896"/>
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="c5c8c6"/>
+        <option name="MODIFIED_LINES_COLOR" value="de935f"/>
         <option name="NOTIFICATION_BACKGROUND" value="1d1f21"/>
         <option name="PROMOTION_PANE" value="373b41"/>
         <option name="QUESTION_HINT" value="81a2be"/>
@@ -29,8 +36,14 @@
         <option name="SELECTION_BACKGROUND" value="373b41"/>
         <option name="SEPARATOR_BELOW_COLOR" value=""/>
         <option name="TEARLINE_COLOR" value="373b41"/>
+        <option name="VCS_ANNOTATIONS_COLOR_1" value="b5bd68"/>
+        <option name="VCS_ANNOTATIONS_COLOR_2" value=""/>
+        <option name="VCS_ANNOTATIONS_COLOR_3" value="de935f"/>
+        <option name="VCS_ANNOTATIONS_COLOR_4" value=""/>
+        <option name="VCS_ANNOTATIONS_COLOR_5" value="cc6666"/>
         <option name="VISUAL_INDENT_GUIDE" value=""/>
         <option name="WHITESPACES" value="626466"/>
+        <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="de935f"/>
 
         <!-- VCS Pane -->
         <option name="FILESTATUS_ADDED" value="73c990"/>
@@ -55,6 +68,12 @@
         <option name="FILESTATUS_modifiedOutside" value="e2c08d"/>
     </colors>
     <attributes>
+        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="de935f"/>
+            </value>
+        </option>
+        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA"/>
         <option name="BAD_CHARACTER">
             <value>
                 <option name="EFFECT_COLOR" value="d13b2e"/>
@@ -280,6 +299,15 @@
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
+        <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE"/>
+        <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING"/>
+        <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY"/>
+        <option name="HTML_TAG" baseAttributes="DEFAULT_TAG"/>
+        <option name="HTML_TAG_NAME">
+            <value>
+                <option name="FOREGROUND" value="cc6666"/>
+            </value>
+        </option>
         <option name="HYPERLINK_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="81a2be"/>
@@ -332,6 +360,11 @@
                 <option name="BACKGROUND" value="969896"/>
             </value>
         </option>
+        <option name="JSON.KEYWORD">
+            <value>
+                <option name="FOREGROUND" value="de935f"/>
+            </value>
+        </option>
         <option name="LIVE_TEMPLATE_ATTRIBUTES">
             <value>
                 <option name="EFFECT_COLOR" value="81a2be"/>
@@ -359,6 +392,23 @@
                 <option name="FOREGROUND" value="969896"/>
             </value>
         </option>
+        <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE"/>
+        <option name="PROPERTIES.KEY">
+            <value>
+                <option name="FOREGROUND" value="cc6666"/>
+                <option name="EFFECT_TYPE" value="1"/>
+            </value>
+        </option>
+        <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="DEFAULT_OPERATION_SIGN"/>
+        <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE"/>
+        <option name="REGEXP.BRACES" baseAttributes="DEFAULT_BRACES"/>
+        <option name="REGEXP.BRACKETS" baseAttributes="DEFAULT_BRACKETS"/>
+        <option name="REGEXP.CHAR_CLASS" baseAttributes="DEFAULT_ENTITY"/>
+        <option name="REGEXP.ESC_CHARACTER" baseAttributes="DEFAULT_VALID_STRING_ESCAPE"/>
+        <option name="REGEXP.META" baseAttributes="DEFAULT_KEYWORD"/>
+        <option name="REGEXP.PARENTHS" baseAttributes="DEFAULT_PARENTHS"/>
+        <option name="REGEXP.QUOTE_CHARACTER" baseAttributes="DEFAULT_VALID_STRING_ESCAPE"/>
+        <option name="REGEXP.REDUNDANT_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE"/>
         <option name="RUNTIME_ERROR">
             <value>
                 <option name="EFFECT_COLOR" value="de935f"/>
@@ -435,6 +485,26 @@
                 <option name="EFFECT_COLOR" value="d13b2e"/>
                 <option name="ERROR_STRIPE_COLOR" value="cc6666"/>
                 <option name="EFFECT_TYPE" value="2"/>
+            </value>
+        </option>
+        <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE"/>
+        <option name="XML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY"/>
+        <option name="XML_PROLOGUE" baseAttributes="TEXT"/>
+        <option name="XML_TAG" baseAttributes="DEFAULT_TAG"/>
+        <option name="XML_TAG_DATA" baseAttributes="TEXT"/>
+        <option name="XML_TAG_NAME">
+            <value>
+                <option name="FOREGROUND" value="cc6666"/>
+            </value>
+        </option>
+        <option name="YAML_ANCHOR">
+            <value>
+                <option name="FOREGROUND" value="f0c674"/>
+            </value>
+        </option>
+        <option name="YAML_SCALAR_KEY">
+            <value>
+                <option name="FOREGROUND" value="cc6666"/>
             </value>
         </option>
     </attributes>
