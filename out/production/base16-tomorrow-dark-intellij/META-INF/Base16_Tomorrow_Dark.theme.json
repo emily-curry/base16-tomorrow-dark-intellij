@@ -20,6 +20,14 @@
     "blue": "#81a2be",
     "purple": "#b294bb",
     "brown": "#a3685a",
+    "redDark": "#442B2C",
+    "orangeDark": "#48362B",
+    "yellowDark": "#4D4330",
+    "greenDark": "#3E412D",
+    "cyanDark": "#334141",
+    "blueDark": "#313A42",
+    "purpleDark": "#3D3642",
+    "brownDark": "#392B29",
     "baseBackground": "#161719",
     "baseForeground": "#a3a8ae",
     "editorErrorForeground": "#d13b2e",
@@ -95,12 +103,12 @@
       "inactiveColoredFileBackground": "baseBackground"
     },
     "FileColor": {
-      "Blue": "#2c3741",
-      "Green": "#3e4023",
-      "Orange": "#4b3220",
-      "Rose": "#452323",
-      "Violet": "#3d3240",
-      "Yellow": "#524327"
+      "Blue": "blueDark",
+      "Green": "greenDark",
+      "Orange": "orangeDark",
+      "Rose": "redDark",
+      "Violet": "purpleDark",
+      "Yellow": "yellowDark"
     },
     "Link": {
       "activeForeground": "blue"
