@@ -4,7 +4,7 @@
     <version>1.0</version>
     <vendor email="emily@curry.sh" url="https://github.com/emily-curry">Emily Curry</vendor>
 
-    <description>An adaptation of Atom's &lt;a href="https://github.com/atom/base16-tomorrow-dark-theme" &gt;base16-tomorrow-dark-theme&lt;/a&gt;,
+    <description>An adaptation of Atom's &lt;a href="https://github.com/atom/base16-tomorrow-dark-theme"&gt;base16-tomorrow-dark-theme&lt;/a&gt;,
         with workbench colors taken from Atom's One Dark UI theme. Ported from my own &lt;a
         href="https://github.com/emily-curry/base16-tomorrow-dark-vscode"&gt;VSCode theme&lt;/a&gt; of the same
         inspiration.
@@ -13,7 +13,7 @@
     <change-notes>Initial release. All default languages within IDEA supported.
     </change-notes>
 
-    <idea-version since-build="173.0"/>
+    <idea-version since-build="191.0"/>
 
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
          on how to target different products -->
