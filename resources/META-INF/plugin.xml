@@ -1,7 +1,7 @@
 <idea-plugin require-restart="false">
     <id>com.httpriestess.base16-tomorrow-dark</id>
     <name>Base16 Tomorrow Dark Theme</name>
-    <version>1.0.1</version>
+    <version>1.0.3</version>
     <vendor email="emily@curry.sh" url="https://github.com/emily-curry">Emily Curry</vendor>
 
     <description>An adaptation of Atom's &lt;a href="https://github.com/atom/base16-tomorrow-dark-theme"&gt;base16-tomorrow-dark-theme&lt;/a&gt;,
@@ -10,7 +10,9 @@
         inspiration.
     </description>
 
-    <change-notes>&lt;h3&gt;1.0.1&lt;/h3&gt;
+    <change-notes>&lt;h3&gt;1.0.3&lt;/h3&gt;
+        Improved Rust language support.
+        &lt;h3&gt;1.0.1&lt;/h3&gt;
         Updated minimum supported version.
         &lt;h2&gt;1.0.0&lt;/h2&gt;
         Initial release. All default languages within IDEA supported.
