@@ -37,8 +37,8 @@
     "gitDecorationIgnoredResourceForeground": "#696d71",
     "gitDecorationConflictingResourceForeground": "#6494ed",
     "gitDecorationDeletedResourceForeground": "#ff6347",
-    "listSelectionBackground": "#222426",
-    "listSelectionForeground": "#d9dbde",
+    "listSelectionBackground": "darkGray",
+    "listSelectionForeground": "veryLightGray",
     "peekViewBorder": "blue",
     "syntaxText": "veryLightGray",
     "syntaxComment": "gray",
@@ -60,10 +60,10 @@
       "selectionInactiveBackground": "listSelectionBackground",
       "selectionBackgroundInactive": "listSelectionForeground",
       "disabledBackground": "listSelectionBackground",
-      "inactiveBackground": "listSelectionBackground",
       "disabledForeground": "gitDecorationIgnoredResourceForeground",
-      "disabledText": "gitDecorationIgnoredResourceForeground",
+      "inactiveBackground": "listSelectionBackground",
       "inactiveForeground": "listSelectionForeground",
+      "disabledText": "gitDecorationIgnoredResourceForeground",
       "errorForeground": "red",
       "borderColor": "listSelectionBackground",
       "disabledBorderColor": "listSelectionBackground",
@@ -90,17 +90,19 @@
     },
     "DefaultTabs": {
       "background": "baseBackground",
-      "hoverBackground": "",
-      "underlinedTabBackground": "black",
-      "underlinedTabForeground": "veryLightGray",
-      "underlineColor": "veryLightGray"
+      "hoverBackground": "listSelectionBackground",
+      "underlinedTabBackground": "baseBackground",
+      "underlinedTabForeground": "baseForeground",
+      "underlineColor": "baseForeground"
     },
     "EditorTabs": {
       "underlineHeight": 0,
       "borderColor": "listSelectionBackground",
-      "underlinedTabBackground": "black",
-      "underlinedTabForeground": "veryLightGray",
-      "inactiveColoredFileBackground": "baseBackground"
+      "background": "baseBackground",
+      "underlinedTabBackground": "listSelectionBackground",
+      "underlinedTabForeground": "listSelectionForeground",
+      "inactiveColoredFileBackground": "baseBackground",
+      "hoverBackground": "veryDarkGray"
     },
     "FileColor": {
       "Blue": "blueDark",
@@ -121,6 +123,11 @@
       "hoverColor": "listSelectionBackground",
       "focusColor": "listSelectionBackground",
       "underlineColor": "listSelectionForeground"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "baseBackground"
+      }
     },
     "ValidationTooltip": {
       "errorBackground": "red",
